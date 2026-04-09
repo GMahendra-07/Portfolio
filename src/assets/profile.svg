@@ -1,0 +1,23 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0A0A" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#A855F7" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" rx="80" fill="url(#bgGrad)" />
+  <circle cx="250" cy="250" r="186" fill="rgba(255,255,255,0.04)" stroke="url(#ringGrad)" stroke-width="8" />
+  <circle cx="250" cy="180" r="72" fill="#1F2937" stroke="rgba(255,255,255,0.08)" stroke-width="6" />
+  <rect x="150" y="300" width="200" height="120" rx="28" fill="#1F2937" />
+  <rect x="190" y="320" width="120" height="18" rx="9" fill="#4F46E5" opacity="0.85" />
+  <rect x="190" y="350" width="120" height="18" rx="9" fill="#2563EB" opacity="0.75" />
+  <rect x="190" y="380" width="120" height="18" rx="9" fill="#8B5CF6" opacity="0.7" />
+  <circle cx="160" cy="132" r="18" fill="#60A5FA" opacity="0.9" />
+  <circle cx="340" cy="132" r="12" fill="#A855F7" opacity="0.9" />
+  <circle cx="140" cy="360" r="14" fill="#38BDF8" opacity="0.8" />
+  <circle cx="370" cy="320" r="10" fill="#C084FC" opacity="0.8" />
+</svg>
